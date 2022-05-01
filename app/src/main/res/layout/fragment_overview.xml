@@ -42,7 +42,9 @@
       app:layout_constraintLeft_toLeftOf="parent"
       app:layout_constraintRight_toRightOf="parent"
       tools:itemCount="16"
-      tools:listitem="@layout/grid_view_item">
+      tools:listitem="@layout/grid_view_item"
+      app:listData="@{viewModel.photos}"
+      android:clipToPadding="false">
   </androidx.recyclerview.widget.RecyclerView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

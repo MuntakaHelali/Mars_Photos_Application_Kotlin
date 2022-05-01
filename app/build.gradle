@@ -63,11 +63,14 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    //Retrofit
+    //Retrofit Library
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
     //Retrofit with Moshi Converter (converter enables Retrofit to return the JSON result as a String)
     implementation "com.squareup.retrofit2:converter-moshi:2.9.0"
 
     //Moshi Parser Library
     implementation 'com.squareup.moshi:moshi-kotlin:1.9.3'
+
+    //Coil Library
+    implementation "io.coil-kt:coil:2.0.0-rc03"
 }
